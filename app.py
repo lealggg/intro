@@ -4,4 +4,6 @@ st.title (" Leal G!!")
 
 st.header(" En este espacio encontraras informacion sobre leal g ")
 st.write(" Conoceras facilmente a este personaje ")
-image = Image.open ("")
+image = Image.open ("leal.jpeg")
+
+st.image(image, caption="leal")
