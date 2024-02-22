@@ -22,13 +22,14 @@ with col1:
     st.write("correcto!")
     
 with col2:
-st.subheader("esta es la segunda columna")
-modo = st.radio("que modalidad es la principal en tu interfaz", ("visual", "auditiva", "tactil"))
-if modo == "visual":
-  st.write("la vista es fundamental para tu intefaz ")
-if modo == "auditiva":
-  st.write("la audicion es fundamental para tu interfaz")
-if modo == "tactil":
-  st.write("el tacto es fundamental para tu interfaz")
+  st.subheader("esta es la segunda columna")
+  modo = st.radio("que modalidad es la principal en tu interfaz", ("visual", "auditiva", "tactil"))
+  if modo == "visual":
+    st.write("la vista es fundamental para tu intefaz ")
+  if modo == "auditiva":
+    st.write("la audicion es fundamental para tu interfaz")
+  if modo == "tactil":
+    st.write("el tacto es fundamental para tu interfaz")
+
   
     
